@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+}
+
+.header{
+  width: 100%;
+  height:60px;
+  background-color: coral;
+}
+.header h1{
+  color: white;
+  padding: 10px 0 0 30px;
+}
+footer{
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  background-color: burlywood;
+}
+footer p{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 12px;
+}
+.note{
+  background-color: white;
+  margin: 30px;
+  border-radius: 20px;
+  width: 250px;
+  height: auto;
+  padding-bottom: 5px;
+}
+.itens-note{
+  padding-top: 10px;
+  text-align: center;
+}
+.itens-note h3{
+  font-size: 30px;
+}
+.itens-note p{
+  font-size: 15px;
+  margin: 20px;
+}
+.application{
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
